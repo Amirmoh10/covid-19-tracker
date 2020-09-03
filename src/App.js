@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div className=" sm:flex sm:flex-col sm:items-center lg:flex lg:flex-col lg:items-center md:flex md:flex-col md:items-center">
-      <h1 className="sm:text-xs lg:text-4xl md:text-2xl my-10">COVID-19 Database</h1>
+      <h1 className="sm:text-xs lg:text-4xl md:text-2xl my-10">COVID-19 Tracker</h1>
       <input
         type="text"
         placeholder=" Search"
