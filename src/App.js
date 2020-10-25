@@ -5,7 +5,7 @@ import TableInfos from "./TableInfos";
 function App() {
   const [coronaStats, setCoronaStats] = React.useState([]);
   const [filteredStats, setFilteredStats] = React.useState([]);
-
+   console.log(coronaStats)
   const inputHandler = (event) => {
     if (event.key === "Enter") {
       console.log(coronaStats[1].Country);
